@@ -1,0 +1,39 @@
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+
+# Test binary
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.local
+
+# Vendor
+/vendor/
+
+# Coverage
+*.coverprofile
+coverage.html
+
+# Logs
+*.log
