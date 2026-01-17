@@ -106,4 +106,10 @@ const (
 	EventTrueLayerPaymentExecuted   = "payment_executed"
 	EventTrueLayerPaymentFailed     = "payment_failed"
 	EventTrueLayerPaymentAuthorized = "payment_authorized"
+
+	// Razorpay events
+	EventRazorpayPaymentCaptured = "payment.captured"
+	EventRazorpayPaymentFailed   = "payment.failed"
+	EventRazorpayRefundProcessed = "refund.processed"
+	EventRazorpayOrderPaid       = "order.paid"
 )

@@ -7,10 +7,10 @@ A production-ready Go framework for fintech API integration with built-in authen
 
 ## 🎯 Features
 
-- **Unified API Interfaces** - Common interfaces for Stripe, Plaid, TrueLayer, and CoinGecko
+- **Unified API Interfaces** - Common interfaces for Stripe, Razorpay, Plaid, TrueLayer, and CoinGecko
 - **Authentication Management** - OAuth 2.0, API key management, and automatic token rotation
 - **Reliability Patterns** - Retry logic, rate limiting, and circuit breakers
-- **Compliance Helpers** - PSD2, KYC/AML workflows, and audit logging
+
 - **Webhook Management** - Signature verification, event routing, and idempotency
 - **Fiber Integration** - Production-ready middleware for Fiber web framework
 - **Testing Utilities** - Mock providers and test helpers for fintech workflows
@@ -161,51 +161,16 @@ fintechkit/
 │   ├── client/         # Unified provider interfaces
 │   ├── providers/      # API integrations
 │   │   ├── stripe/     # Stripe payment processing
+│   │   ├── razorpay/   # Razorpay payment gateway (India)
 │   │   ├── plaid/      # Plaid banking data
 │   │   ├── truelayer/  # TrueLayer Open Banking
 │   │   └── coingecko/  # CoinGecko crypto data
 │   ├── reliability/    # Retry, rate limiting, circuit breakers
-│   ├── compliance/     # PSD2, KYC/AML, audit logging
+
 │   ├── webhook/        # Webhook management
 │   └── middleware/     # Fiber middleware
 ├── examples/           # Example applications
 └── tests/             # Testing utilities
-```
-
-## 🔐 Compliance Features
-
-### PSD2 Compliance
-
-```go
-psd2Handler := compliance.NewPSD2Handler()
-
-// Create SCA challenge
-challenge, _ := psd2Handler.CreateSCAChallenge(ctx, userID, compliance.SCAMethodSMS)
-
-// Manage consent
-consent, _ := psd2Handler.CreateConsent(ctx, userID,
-    []compliance.ConsentScope{
-        compliance.ConsentScopeAccounts,
-        compliance.ConsentScopeTransactions,
-    },
-    90, // days
-)
-```
-
-### KYC/AML
-
-```go
-kycHandler := compliance.NewKYCHandler()
-amlHandler := compliance.NewAMLHandler()
-
-// Verify identity document
-result, _ := kycHandler.VerifyDocument(ctx, &compliance.IdentityDocument{
-    Type:   compliance.DocumentTypePassport,
-    Number: "12345678",
-})
-
-// Screen against watchlists
-screeningResults, _ := amlHandler.ScreenCustomer(ctx, "John Doe", dob)
 ```
 
 ## 🛡️ Reliability Features
@@ -272,6 +237,7 @@ func TestPaymentFlow(t *testing.T) {
 See the `/examples` directory for complete working examples:
 
 - **payment-flow**: Payment processing with Stripe
+- **razorpay-integration**: Razorpay payment gateway integration (India)
 - **banking-aggregator**: Multi-provider banking data aggregation
 - **webhook-server**: Webhook receiver with event routing
 

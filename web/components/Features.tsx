@@ -1,6 +1,6 @@
 'use client';
 
-import { Zap, Shield, Globe, Terminal, RefreshCw, FileCheck } from 'lucide-react';
+import { Zap, Globe, Terminal, RefreshCw, FileCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const features = [
@@ -8,11 +8,6 @@ const features = [
     icon: Globe,
     title: "Unified Interface",
     description: "One API for Stripe, Plaid, and TrueLayer. Switch providers by changing a single string."
-  },
-  {
-    icon: Shield,
-    title: "Compliance Ready",
-    description: "Built-in GDPR and PCI helpers. We handle the regulatory complexity so you don't have to."
   },
   {
     icon: RefreshCw,
