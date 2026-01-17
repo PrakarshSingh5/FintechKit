@@ -132,9 +132,14 @@ export function IntegrationShowcase() {
               ))}
             </div>
 
-            <button className="mt-4 px-6 py-3 rounded-lg bg-foreground text-background font-bold hover:opacity-90 transition-opacity flex items-center gap-2">
+            <a 
+              href="https://github.com/PrakarshSingh5/FintechKit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 px-6 py-3 rounded-lg bg-foreground text-background font-bold hover:opacity-90 transition-opacity flex items-center gap-2 w-fit"
+            >
               View Documentation <ArrowRight className="w-4 h-4" />
-            </button>
+            </a>
           </motion.div>
 
           {/* Code Side */}

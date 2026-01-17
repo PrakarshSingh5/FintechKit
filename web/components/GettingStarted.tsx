@@ -34,8 +34,9 @@ export function GettingStarted() {
           
           <div className="mt-12">
             <a 
-              href="https://github.com/yourusername/fintechkit#documentation" 
+              href="https://github.com/PrakarshSingh5/FintechKit#readme" 
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-foreground text-background px-8 py-4 rounded-full font-bold hover:bg-gray-200 transition-colors text-lg"
             >
               Read the Full Documentation

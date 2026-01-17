@@ -93,14 +93,22 @@ const payment = await fintech.payment.create({
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-foreground text-background px-8 py-3 rounded-lg font-bold hover:bg-gray-200 transition-colors flex items-center gap-2">
+              <button 
+                onClick={() => document.getElementById('docs')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-foreground text-background px-8 py-3 rounded-lg font-bold hover:bg-gray-200 transition-colors flex items-center gap-2"
+              >
                 Get Started
                 <ArrowRight className="w-4 h-4" />
               </button>
-              <button className="px-8 py-3 rounded-lg font-bold border border-border hover:bg-secondary/50 transition-colors flex items-center gap-2 text-muted hover:text-foreground">
+              <a 
+                href="https://github.com/PrakarshSingh5/FintechKit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 rounded-lg font-bold border border-border hover:bg-secondary/50 transition-colors flex items-center gap-2 text-muted hover:text-foreground"
+              >
                 <Lock className="w-4 h-4" />
                 Audit on GitHub
-              </button>
+              </a>
             </div>
 
             <div className="flex items-center gap-6 pt-4">

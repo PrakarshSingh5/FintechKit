@@ -16,7 +16,7 @@ export function Navbar() {
         <div className="flex items-center gap-6 text-sm font-medium text-muted hover:text-foreground transition-colors">
           <Link href="#features" className="hover:text-primary transition-colors">Features</Link>
           <Link href="#security" className="hover:text-primary transition-colors">Security</Link>
-          <Link href="https://github.com/yourusername/fintechkit" target="_blank" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <Link href="https://github.com/PrakarshSingh5/FintechKit" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Github className="w-4 h-4" />
             <span>GitHub</span>
           </Link>
