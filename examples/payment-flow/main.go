@@ -6,11 +6,11 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourusername/fintechkit/pkg/auth"
-	"github.com/yourusername/fintechkit/pkg/client"
-	"github.com/yourusername/fintechkit/pkg/middleware"
-	"github.com/yourusername/fintechkit/pkg/providers/stripe"
-	"github.com/yourusername/fintechkit/pkg/reliability"
+	"github.com/PrakarshSingh5/fintechkit/pkg/auth"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/middleware"
+	"github.com/PrakarshSingh5/fintechkit/pkg/providers/stripe"
+	"github.com/PrakarshSingh5/fintechkit/pkg/reliability"
 )
 
 func main() {

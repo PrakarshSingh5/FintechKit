@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourusername/fintechkit/pkg/auth"
-	"github.com/yourusername/fintechkit/pkg/middleware"
-	"github.com/yourusername/fintechkit/pkg/providers/plaid"
-	"github.com/yourusername/fintechkit/pkg/providers/truelayer"
+	"github.com/PrakarshSingh5/fintechkit/pkg/auth"
+	"github.com/PrakarshSingh5/fintechkit/pkg/middleware"
+	"github.com/PrakarshSingh5/fintechkit/pkg/providers/plaid"
+	"github.com/PrakarshSingh5/fintechkit/pkg/providers/truelayer"
 )
 
 func main() {

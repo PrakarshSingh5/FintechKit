@@ -5,13 +5,13 @@
 ### 1. Install
 
 ```bash
-go get github.com/yourusername/fintechkit
+go get github.com/PrakarshSingh5/fintechkit
 ```
 
 ### 2. Create Client
 
 ```go
-import "github.com/yourusername/fintechkit/pkg/providers/razorpay"
+import "github.com/PrakarshSingh5/fintechkit/pkg/providers/razorpay"
 
 client, err := razorpay.NewClient(&razorpay.Config{
     KeyID:     "rzp_test_xxxxx",

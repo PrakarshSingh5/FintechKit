@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/yourusername/fintechkit/pkg/auth"
-	"github.com/yourusername/fintechkit/pkg/client"
-	"github.com/yourusername/fintechkit/pkg/providers/razorpay"
+	"github.com/PrakarshSingh5/fintechkit/pkg/auth"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/providers/razorpay"
 )
 
 func main() {

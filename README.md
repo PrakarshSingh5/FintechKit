@@ -18,7 +18,7 @@ A production-ready Go framework for fintech API integration with built-in authen
 ## 📦 Installation
 
 ```bash
-go get github.com/yourusername/fintechkit
+go get github.com/PrakarshSingh5/fintechkit
 ```
 
 ## 🚀 Quick Start
@@ -32,10 +32,10 @@ import (
     "context"
     "log"
 
-    "github.com/yourusername/fintechkit/pkg/auth"
-    "github.com/yourusername/fintechkit/pkg/client"
-    "github.com/yourusername/fintechkit/pkg/providers/stripe"
-    "github.com/yourusername/fintechkit/pkg/reliability"
+    "github.com/PrakarshSingh5/fintechkit/pkg/auth"
+    "github.com/PrakarshSingh5/fintechkit/pkg/client"
+    "github.com/PrakarshSingh5/fintechkit/pkg/providers/stripe"
+    "github.com/PrakarshSingh5/fintechkit/pkg/reliability"
 )
 
 func main() {
@@ -82,7 +82,7 @@ import (
     "log"
     "time"
 
-    "github.com/yourusername/fintechkit/pkg/providers/plaid"
+    "github.com/PrakarshSingh5/fintechkit/pkg/providers/plaid"
 )
 
 func main() {
@@ -119,7 +119,7 @@ import (
     "log"
 
     "github.com/gofiber/fiber/v2"
-    "github.com/yourusername/fintechkit/pkg/webhook"
+    "github.com/PrakarshSingh5/fintechkit/pkg/webhook"
 )
 
 func main() {
@@ -219,7 +219,7 @@ result, err := breaker.Execute(func() (interface{}, error) {
 ## 🧪 Testing
 
 ```go
-import "github.com/yourusername/fintechkit/tests"
+import "github.com/PrakarshSingh5/fintechkit/tests"
 
 func TestPaymentFlow(t *testing.T) {
     helper := tests.NewTestHelper(t)

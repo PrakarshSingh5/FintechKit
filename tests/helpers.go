@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yourusername/fintechkit/pkg/client"
-	"github.com/yourusername/fintechkit/pkg/reliability"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/reliability"
 )
 
 // TestHelper provides utilities for fintech workflow testing

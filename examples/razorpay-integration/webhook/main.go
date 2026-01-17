@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourusername/fintechkit/pkg/webhook"
+	"github.com/PrakarshSingh5/fintechkit/pkg/webhook"
 )
 
 func main() {

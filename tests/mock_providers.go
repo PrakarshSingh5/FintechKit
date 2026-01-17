@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/yourusername/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
 )
 
 // MockPaymentProvider is a mock implementation of PaymentProvider for testing

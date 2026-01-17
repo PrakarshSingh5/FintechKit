@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yourusername/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
 )
 
 // Client implements the Stripe payment provider

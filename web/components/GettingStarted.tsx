@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export function GettingStarted() {
   const [copied, setCopied] = useState(false);
-  const installCmd = "go get github.com/fintechkit/fintechkit";
+  const installCmd = "go get github.com/PrakarshSingh5/fintechkit";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(installCmd);

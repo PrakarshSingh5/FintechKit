@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yourusername/fintechkit/pkg/auth"
-	"github.com/yourusername/fintechkit/pkg/reliability"
+	"github.com/PrakarshSingh5/fintechkit/pkg/auth"
+	"github.com/PrakarshSingh5/fintechkit/pkg/reliability"
 )
 
 // ProviderConfig holds configuration for creating a provider

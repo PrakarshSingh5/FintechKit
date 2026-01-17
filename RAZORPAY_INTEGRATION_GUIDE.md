@@ -75,7 +75,7 @@ Imagine you're building an e-commerce website and need to accept payments. Inste
 ### Step 1: Install FinTechKit
 
 ```bash
-go get github.com/yourusername/fintechkit
+go get github.com/PrakarshSingh5/fintechkit
 ```
 
 ### Step 2: Get Razorpay Credentials

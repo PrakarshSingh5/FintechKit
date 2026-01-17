@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/yourusername/fintechkit/pkg/client"
+	"github.com/PrakarshSingh5/fintechkit/pkg/client"
 )
 
 // Client implements the CoinGecko cryptocurrency data provider

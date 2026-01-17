@@ -1,4 +1,4 @@
-module github.com/yourusername/fintechkit
+module github.com/PrakarshSingh5/fintechkit
 
 go 1.25.1
 

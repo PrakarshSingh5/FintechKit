@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/yourusername/fintechkit/pkg/auth"
+	"github.com/PrakarshSingh5/fintechkit/pkg/auth"
 )
 
 // AuthMiddleware creates Fiber middleware for API key authentication

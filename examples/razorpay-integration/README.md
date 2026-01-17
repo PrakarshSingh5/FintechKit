@@ -115,14 +115,14 @@ Amount in Paise = Amount in Rupees × 100
 ### Step 1: Install FinTechKit
 
 ```bash
-go get github.com/yourusername/fintechkit
+go get github.com/PrakarshSingh5/fintechkit
 ```
 
 ### Step 2: Initialize Razorpay Client
 
 ```go
 import (
-    "github.com/yourusername/fintechkit/pkg/providers/razorpay"
+    "github.com/PrakarshSingh5/fintechkit/pkg/providers/razorpay"
 )
 
 client, err := razorpay.NewClient(&razorpay.Config{
